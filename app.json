@@ -1,15 +1,15 @@
 {
+  "displayName": "FreightVana Mobile",
   "expo": {
-    "name": "FVNewMobile",
-    "slug": "FVNewMobile",
-    "version": "1.0.0",
+    "name": "FreightVana",
+    "slug": "FreightVana",
+    "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
+    "icon": "./assets/main-icon.png",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/freightvana-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#ffffff"
+      "backgroundColor": "#000000"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -18,16 +18,21 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "io.freightvana.mobiletrackingapp",
+      "buildNumber": "18"
     },
     "android": {
+      "useNextNotificationsApi": true,
+      "versionCode": 7,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#FFFFFF"
-      }
+        "foregroundImage": "./assets/main-icon.png",
+        "backgroundColor": "#000000"
+      },
+      "package": "io.freightvana.mobiletrackingapp"
     },
     "web": {
-      "favicon": "./assets/favicon.png"
+      "favicon": "./assets/main-icon.png"
     }
   }
 }
