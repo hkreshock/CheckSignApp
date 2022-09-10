@@ -1,8 +1,8 @@
 {
-  "displayName": "FreightVana Mobile",
+  "displayName": "Check Sign",
   "expo": {
-    "name": "FreightVana",
-    "slug": "FreightVana",
+    "name": "Check Sign",
+    "slug": "Check Sign",
     "version": "1.0.2",
     "orientation": "portrait",
     "icon": "./assets/main-icon.png",
@@ -19,7 +19,7 @@
     ],
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "io.freightvana.mobiletrackingapp",
+      "bundleIdentifier": "io.sh4ape5.checksignapp",
       "buildNumber": "18"
     },
     "android": {
@@ -29,7 +29,7 @@
         "foregroundImage": "./assets/main-icon.png",
         "backgroundColor": "#000000"
       },
-      "package": "io.freightvana.mobiletrackingapp"
+      "package": "io.sh4ape5.checksignapp"
     },
     "web": {
       "favicon": "./assets/main-icon.png"

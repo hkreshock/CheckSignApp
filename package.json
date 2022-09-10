@@ -1,5 +1,5 @@
 {
-  "name": "fvnewmobile",
+  "name": "checksignapp",
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
@@ -13,6 +13,7 @@
     "@react-navigation/native": "^6.0.12",
     "axios": "^0.27.2",
     "expo": "~46.0.9",
+    "expo-camera": "~12.3.0",
     "lottie-react-native": "5.1.3",
     "lottie-web": "^5.9.6",
     "react": "18.0.0",

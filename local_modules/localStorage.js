@@ -43,54 +43,8 @@ const getToken = async () => {
   }
 }
 
-const setActiveOrder = (orderDetails) => {
-  try {
-    if (window?.localStorage) {
-      window.localStorage.setItem('activeOrder', JSON.stringify(orderDetails));
-    } else {
-      AsyncStorage.setItem('activeOrder', JSON.stringify(orderDetails));
-    }
-  } catch (error) {
-    console.log('Something went wrong', error);
-  }
-}
-
-const removeActiveOrder = () => {
-  try {
-    if (window?.localStorage) {
-      window.localStorage.removeItem('activeOrder');
-    } else {
-      AsyncStorage.removeItem('activeOrder');
-    }
-  } catch (error) {
-    console.log('Something went wrong', error);
-  }
-}
-
-const getActiveOrder = async () => {
-  try {
-    let orderDetails;
-    if (window?.localStorage) {
-      orderDetails = window.localStorage.getItem('activeOrder');
-    } else {
-      orderDetails = await AsyncStorage.getItem('activeOrder').then(data => {
-        return data;
-      });
-    }
-    if (orderDetails) {
-      let data = JSON.parse(orderDetails);
-      return data;
-    }
-  } catch (error) {
-    console.log('Something went wrong', error);
-  }
-}
-
 export default {
-    storeToken,
-    removeToken,
-    getToken,
-    setActiveOrder,
-    removeActiveOrder,
-    getActiveOrder
+  storeToken,
+  removeToken,
+  getToken,
 }
