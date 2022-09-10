@@ -10,7 +10,7 @@ class LandingScreen extends Component {
   }
   render() {
     return (
-      <View>
+      <View style={{ backgroundColor: '#121212', height: '100%' }}>
       </View>
     );
   }

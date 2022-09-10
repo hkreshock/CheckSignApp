@@ -5,11 +5,11 @@
     "slug": "Check Sign",
     "version": "1.0.2",
     "orientation": "portrait",
-    "icon": "./assets/main-icon.png",
+    "icon": "./assets/check-icon.png",
     "splash": {
-      "image": "./assets/freightvana-icon.png",
+      "image": "./assets/check-icon.png",
       "resizeMode": "contain",
-      "backgroundColor": "#000000"
+      "backgroundColor": "#ffffff"
     },
     "updates": {
       "fallbackToCacheTimeout": 0
@@ -26,13 +26,13 @@
       "useNextNotificationsApi": true,
       "versionCode": 7,
       "adaptiveIcon": {
-        "foregroundImage": "./assets/main-icon.png",
+        "foregroundImage": "./assets/check-icon.png",
         "backgroundColor": "#000000"
       },
       "package": "io.sh4ape5.checksignapp"
     },
     "web": {
-      "favicon": "./assets/main-icon.png"
+      "favicon": "./assets/check-icon.png"
     }
   }
 }
